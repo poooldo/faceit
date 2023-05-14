@@ -1,0 +1,13 @@
+{
+  "apiVersion": "tanka.dev/v1alpha1",
+  "kind": "Environment",
+  "metadata": {
+    "name": "app"
+  },
+  "spec": {
+    "apiServer": "https://715F5456FA3B266B3EB06FFBF2C05302.gr7.eu-west-1.eks.amazonaws.com",
+    "namespace": "app",
+    "resourceDefaults": {},
+    "expectVersions": {}
+  }
+}

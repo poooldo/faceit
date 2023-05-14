@@ -1,0 +1,8 @@
+directory: charts
+repositories:
+- name: sealed-secrets
+  url: https://bitnami-labs.github.io/sealed-secrets
+requires:
+  - chart: sealed-secrets/sealed-secrets
+    version: 2.1.6
+version: 1

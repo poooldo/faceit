@@ -1,0 +1,8 @@
+directory: charts
+repositories:
+  - name: bitnami
+    url: https://charts.bitnami.com/bitnami
+requires:
+  - chart: bitnami/postgresql
+    version: 10.4.7
+version: 1
